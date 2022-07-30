@@ -1,0 +1,309 @@
+body{
+    margin: 0px;
+    padding:0px;
+    background-color: #fff;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Rubik+Moonrocks&display=swap');
+
+.navbar-brand img{
+    width: 150px;
+    height: 50px;
+}
+
+
+
+
+.jumbotron {
+    display: flex;
+    flex-wrap:nowrap;
+    background-color: #f4f4f4;
+}
+.model-x-title{
+    margin-top: 30px;
+}
+
+p{
+    text-align: start;
+    width: auto;
+}
+.title{
+    margin-right: 55px;
+}
+.model-x-img{
+    width: 50%;
+    float: right;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    
+}
+.model-x-button{
+    border-radius: 30px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 20px;
+
+
+}
+.model-x-button:hover{
+    background-color: rgb(10, 10, 10);
+    color: #fff;
+    
+    
+}
+.title-inventory{
+    background-color:#fff;
+    text-align: center;
+    
+}
+.inventory{
+    text-align: center;
+}
+.inventory-text{
+    text-align: center;
+}
+ .inventory-button{
+    border-radius: 30px;
+    padding: 5px 20px 5px 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+ }
+ .inventory-button:hover{
+    background-color: rgb(10, 10, 10);
+    color: #fff;
+}
+
+
+.section{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.tesla-1{
+    background-color:white;
+    width: 300px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+   
+}
+.model{
+    width: 300px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.tesla-1 h4{
+    padding: 20px;
+}
+.tesla-1 p{
+    padding-left: 20px;
+}
+.tesla-1 h3{
+    padding-left: 20px;
+}
+
+.model-x-button-2{
+    border-radius: 30px;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+.model-x-button-2:hover{
+    background-color: rgb(10, 10, 10);
+    color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+    .jumbotron {
+            display: flex;
+            flex-wrap:wrap;
+            
+        }
+        .jumbotron img{
+            width: 100%;
+            
+        }
+        .model-x-button{
+            margin-bottom: 25px;
+        }
+        
+    }
+   
+    @media only screen and (max-width: 600px) {
+        .section {
+                display: flex;
+                flex-wrap:wrap;
+                padding: 20px;
+                
+            }
+            .tesla-1{
+                width: 100%;
+                margin-right: 0px;
+                
+            }
+            .model{
+                width: 100%;
+                
+            }
+            
+        }
+       
+@media only screen and (max-width: 768px) {
+    .jumbotron {
+            display: flex;
+            flex-wrap:wrap;
+            
+        }
+        .jumbotron img{
+            width: 100%;
+            
+        }
+        .model-x-button{
+            margin-bottom: 25px;
+        }
+        
+    }
+   
+    @media only screen and (max-width: 768px) {
+        .section {
+                display: flex;
+                flex-wrap:wrap;
+                padding: 20px;
+                
+            }
+            .tesla-1{
+                
+                margin-right: 0px;
+                
+            }
+            .model{
+                width: 100%;
+                
+            }
+            
+        }
+@media only screen and (max-width: 960px) {
+    .jumbotron {
+            display: flex;
+            flex-wrap:wrap;
+            
+        }
+        .jumbotron img{
+            width: 100%;
+            
+        }
+        .model-x-button{
+            margin-bottom: 25px;
+        }
+        
+    }
+   
+    @media only screen and (max-width: 960px) {
+        .section {
+                display: flex;
+                flex-wrap:wrap;
+                padding: 20px;
+                
+            }
+            .tesla-1{
+                margin-right: 0px;
+                
+            }
+            .model{
+                width: 100%;
+                
+            }
+            
+        }
+
+
+.gallery-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.gallery-tittle{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+* { box-sizing: border-box;}
+       
+        /* First the Grid */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 10px;
+    justify-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* The Picture Frame */
+  .gallery-frame {
+    padding: .5rem;
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  
+  /* The Images */
+  .gallery-img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: opacity 0.25s ease-in-out;
+  }
+  
+  .gallery-img:hover {
+    opacity: .7;
+  }
+
+
+.footer{
+    background-color: black;
+    height: 250px;
+    color: #fff;
+  } 
+  .footer-logo {
+    text-align:center;
+  }
+  .footer-logo img{
+    width: 450px;
+
+  }
+  
+
+  
+.footer-links{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.footer-links ul {
+    list-style-type: none;
+    
+}
+.footer-links li{
+    
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: #fff;
+    
+   
+}
+
+
+@media only screen and (max-width: 600px) {
+    .footer-links {
+            visibility: hidden;
+            
+        }
+        
+        
+    }
