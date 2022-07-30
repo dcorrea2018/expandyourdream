@@ -1,9 +1,6 @@
 # landing_page - Tesla
 
-<p align="left">
-  <img height="200" src="./dog.png" />
-</p>
- 
+
 ## Objetivos del Proyecto
 
 - El objetivo principal de este proyecto es desarrollar una interfaz utilizando HTML y CSS, en toda su aplicación.
