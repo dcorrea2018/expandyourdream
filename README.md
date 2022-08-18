@@ -1,4 +1,4 @@
-# landing_page - Tesla
+# landing_page - EYD
 
 
 ## Objetivos del Proyecto
